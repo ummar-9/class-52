@@ -1,0 +1,53 @@
+    h1{
+        color:white;
+        padding: 20px;
+    }
+.header *{
+    border: solid;
+}
+
+.header{
+ background-color:black;
+ display:flex;
+ justify-content: space-between;
+}
+.grid{
+ background-color:black;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+p,h2{
+text-align: center;
+color: white;
+}
+.sitedescription{
+    background-color:black;
+}
+body{
+ background-color: black;
+}
+
+a:link {
+    color:white;
+}
+a:visited{
+    color:gray;
+}
+.menu{
+ margin-right: 30px;
+
+}
+.menu a{
+ margin-left: 20px;
+ padding: 5px
+}
+.item p{
+ color:white
+}
+.item:hover p{
+color:rgb(179, 174, 174);
+}
+.item:hover img{
+ opacity: 0.1;
+}
